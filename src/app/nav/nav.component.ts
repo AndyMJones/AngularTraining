@@ -22,10 +22,4 @@ export class NavComponent implements OnInit {
     this.modal.openModal('auth');
   }
 
-  logout(event: Event) {
-    event.preventDefault();
-
-    this.auth.logout();
-  }
-
 }
